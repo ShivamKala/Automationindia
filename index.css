@@ -1,0 +1,392 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+  
+}
+
+body{
+background-color: #faaca869;
+background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+line-height: 1.5;
+  
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+li a{
+  text-decoration: none;
+  color:white;
+}
+li a:hover{
+  text-decoration: none;
+  color:white;
+}
+.btn{
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 0.8em 3em;
+  margin: 1rem 0;
+}
+
+.btn:hover{
+ color:azure
+}
+
+.btn-pri{
+  background-image: linear-gradient(to right,#f05a28,#ec008c);
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10rem;
+  text-transform: uppercase;
+}
+.section-center {
+  width: 90%;
+  margin: 0 auto;
+  /* border:2px solid blue; */
+  
+}
+
+.section-center-slider {
+  width: 50%;
+  margin: 0 auto;
+  /* border:2px solid blue; */
+  
+}
+ 
+.section-center-slider h1 {
+  text-align: center;
+}
+.section-center h1 {
+  text-align: center;
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.nav-center ul {
+  width: 80%;
+  float: right;
+  text-align: right;
+  font-size: 1.3rem;
+  color:white;
+}
+
+.nav-center h1 {
+  width: 20%;
+  float: left;
+  margin-top: 0.3rem;
+  color:white;
+}
+
+.nav-center ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 10px;
+  margin-top: 12px;
+}
+
+.nav-center {
+  width: 90%;
+  margin: auto;
+}
+
+.nav {
+  width: 100%;
+  height: 4rem;
+  background-image: linear-gradient(to right,#f05a28,#ec008c);
+  box-shadow: 0 0 3px 3px rgb(5 6 7 / 10%), 0 6px 2px 0 rgb(20 23 28 / 10%);
+}
+.clearfix {
+  clear: both;
+}
+
+.hero {
+  /* background: url("./images/2.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; */
+  min-height: calc(100vh - 4rem);
+}
+
+.herocaption {
+  float: left;
+  width: 50%;
+  vertical-align: center;
+  margin-top: 5rem;
+}
+
+.herocaption h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+
+.herocaption p {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 3rem;
+}
+.heroimage {
+  float: right;
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hero-center {
+  width: 90%;
+  margin: auto;
+  padding: 10rem 0;
+  box-sizing: border-box;
+}
+
+.back{
+ background-color: #FFF2F2;
+ padding: 1rem 0;
+}
+
+.img{
+  width:100%;
+  display:block;
+  object-fit: cover;
+}
+
+.cardi{
+  width:48%;
+  float:left;
+  /* border:2px solid blue; */
+  margin:1%;
+  padding:1%;
+  box-sizing: border-box;
+  background: white;
+  border-radius: 2%;;
+  box-shadow: 0 0 1px 1px rgb(5 6 7 / 10%), 0 3px 1px 0 rgb(20 23 28 / 10%);
+}
+
+
+.cardi:hover{
+box-shadow: 0 0 3px 3px rgb(5 6 7 / 10%), 0 6px 2px 0 rgb(20 23 28 / 10%);
+}
+.cardi img{
+  /* border-bottom: 1px solid blue; */
+  padding:2%;
+}
+
+.cardi p{
+  padding:1%;
+}
+ .cardi .imageinfo{
+  text-align: justify;
+  
+}
+
+.iframe-container{
+  position:relative;
+  width:100%;
+  height:0;
+  padding-bottom: 70%;
+}
+.iframe-container iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+.custom{
+  width: 700px !important;
+  margin: 0 auto;
+}
+.mar{
+  width:50%;
+  margin: auto;
+  text-align: center;
+}
+.contact h1{
+  text-align: center;
+}
+
+.contact h3,.about h4{
+  text-align: justify;
+}
+
+.sectionb{
+  background-color: black;
+  padding: 5rem;
+ 
+}
+
+.footer1{
+width:33%;
+float:left;
+padding:1%;
+color:white;
+/* border:1px solid blue; */
+text-align: left;
+}
+
+.footer1 li{
+display:inline-block;
+margin: 0.4rem;
+}
+
+.footer ul{
+  padding: 0px;
+}
+.icon{
+  width:50px;
+  height:50px;
+}
+
+.last{
+  background:linear-gradient(to right,#f05a28,#ec008c);
+  color:white;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 999999; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background:linear-gradient(to right,#f05a28,#ec008c);
+  /* background-color: red;  */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 50% !important; /* Rounded corners */
+   /* Increase font size */
+
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+.cropimg{
+  width:300px;
+  object-fit: cover;
+  margin: auto;
+}
+
+.logo{
+  width:210px;
+}
+
+
+@media (max-width: 1161px) {
+  .herocaption {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .heroimage {
+    float: none;
+    width: 100%;
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width: 564px) {
+  .herocaption h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2rem;
+  }
+
+  .hero-center {
+    width: 90%;
+    margin: auto;
+    padding: 4rem 0;
+    box-sizing: border-box;
+  }
+  .nav-center h1 {
+    margin-top: 0.9rem;
+  }
+  .logo{
+    width:150px;
+  }
+  .nav-center ul {
+    font-size: 1rem;
+  }
+
+  .nav-center ul li {
+    padding: 0 5px;
+  }
+  .cropimg{
+    width:200px;
+    object-fit: cover;
+    margin: auto;
+  }
+
+}
+
+@media (max-width:800px){
+  .cardi{
+    width:98%;
+    float:none;
+    margin:auto;
+    /* border:2px solid blue; */
+    margin: 1%;
+    padding:1%;
+    box-sizing: border-box;
+    box-shadow: 0 0 1px 1px rgb(5 6 7 / 10%), 0 3px 1px 0 rgb(20 23 28 / 10%);
+}
+
+.custom{
+  width:300px !important;
+  margin: 0 auto;
+}
+  
+.nav-center h1 {
+    margin-top: 0.5rem;
+  }
+
+  .footer1{
+    width:100%;
+    float:none;
+    padding:1%;
+    color:black;
+    /* border:1px solid blue; */
+    text-align: center;
+    box-sizing: border-box;
+    background: white;
+    border-radius: 2%;;
+    box-shadow: 0 0 1px 1px rgb(5 6 7 / 10%), 0 3px 1px 0 rgb(20 23 28 / 10%);
+    margin-top: 1rem;
+    }
+
+.sectionb{
+  padding: 1rem 0;
+}
+
+.last{
+  background:linear-gradient(to right,#f05a28,#ec008c);
+  /* height:0.2rem; */
+  color:white;
+  text-align: center;
+  /* padding: 1rem 0; */
+}
+}
